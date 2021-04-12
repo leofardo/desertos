@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Deserto</title>
+	</head>
+	<body>
+
+		<section id="slide-bg" class="fundo-1">
+			<header>
+				<div id="titulo">
+					Desertos
+				</div>
+
+				<div id="menu">
+					<img id="menu-hamburguer" src="img/menu.png" width="40" onmouseenter="menu.abrirFecharMenu()">
+					<ul id="menu-opcoes" onmouseleave="menu.abrirFecharMenu()" class="menuOff">
+						<li><a href="#">Paisagens</a></li>
+						<li><a href="#">Locais</a></li>
+						<li><a href="#">Viagens</a></li>
+						<li><a href="#">Turismo</a></li>
+						<li><a href="#">História</a></li>
+					</ul>
+				</div>
+			</header>
+
+			<div id="container-lupa">
+				<div id="lupa">
+					<img src="img/lupa-arredondada.png" width="30">
+					<input type="text" placeholder="Pesquisar">
+				</div>
+			</div>
+		</section>
+
+		<section id="desertos-sec">
+			<div class="desertos">
+				<div class="imagem" onmouseover="imagem.animarData(1)" onmouseleave="imagem.pararAnimacao(1)">
+					<img src="img/saara.jpg">
+					<div >Foto de 2015</div>
+				</div>
+
+				<div class="texto">
+					<h1>Deserto do Saara</h1>
+					<p>
+						O Deserto do Saara ou Deserto do Sara, ou Deserto do Sáara é conhecido por ser o maior deserto quente do mundo. Oficialmente, é o terceiro maior deserto da Terra, logo após a Antártida e o Ártico, pois estas duas também são consideradas desertos.
+					</p>
+				</div>
+			</div>
+
+			<div class="desertos">
+				<div class="texto">
+					<h1>Deserto do Gobi</h1>
+					<p>
+						O Deserto de Gobi é um extenso deserto situado na região norte da República Popular da China e região sul da Mongólia. A palavra Gobi significa deserto, em mongol. Está entre os 5 maiores desertos do mundo, sendo o deserto de Gobi o 5º.
+					</p>
+				</div>
+
+				<div class="imagem" onmouseover="imagem.animarData(2)" onmouseleave="imagem.pararAnimacao(2)">
+					<img src="img/gobi.jpg" width="420">
+					<div onmouseover="imagem.animarData(2)">Foto de 2018</div>
+				</div>
+			</div>
+
+			<div class="desertos">
+				<div class="imagem" onmouseover="imagem.animarData(3)" onmouseleave="imagem.pararAnimacao(3)">
+					<img src="img/saara.jpg" width="420">
+					<div onmouseover="imagem.animarData(3)">Foto de 2020</div>
+				</div>
+
+				<div class="texto">
+					<h1>Deserto do Arábia</h1>
+					<p>
+						O Deserto da Arábia, ou ainda, Deserto Arábico é um deserto imenso que se estende do Iêmen até a Jordânia e o Iraque. Ele ocupa a maior parte da Arábia Saudita, com uma superfície de 2 330 000 km². No seu centro está o Rub al-Khali, um dos maiores corpos contínuos de areia no mundo.
+					</p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="sec-pir">
+			<div id="triangulo"></div>
+			<div id="base"></div>	
+		</section>
+
+		<script src="script.js"></script>
+
+	</body>
+</html>
